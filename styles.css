@@ -1,0 +1,160 @@
+body{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+h1{
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:3rem;
+    font-weight: bold;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 3rem;
+    padding-bottom: 20px;
+    }
+    p{
+        color: #8f8f8f;
+    }
+    h3{
+        font-size: 3.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#title{
+    background-color:rgb(196, 21, 50);
+    color: white;
+    padding-bottom: 100px;
+}
+.container-fluid{
+    padding: 5% 15% 25px 15%;
+    
+}
+
+.navbar{
+    padding:0px 0px 2.2rem;
+    margin-bottom: 30px;
+
+}
+.nav-link{
+    padding: 0 18px;
+    font-size: 20px;
+
+}
+
+.navbar-brand{
+    font-size: 3rem;
+font-weight: bold;
+}
+
+.download-button{
+    margin: 20px;
+}
+
+.title-img{
+    transform: rotate(25deg);
+position: absolute;
+left: 65%;
+width: 20%;
+    }
+    #sec-1{
+        background-color: #ffff;
+        position: relative;
+         }
+
+
+
+.col1{
+    padding-bottom: 10%;
+    
+}
+
+
+#testimonials{
+    padding-bottom: 0px;
+    text-align: center;
+    background-color: #ef8172;
+    color: #ffff;
+}
+.testimonials-img{
+    border-radius: 100%;
+    width: 20%;
+    margin: 20px;
+    margin-left: 80px;
+}
+.carousel-item{
+    padding:15%;
+    padding-bottom:5%;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+   padding: 20px;
+}
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing{
+    margin-left: 10%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.card-title{
+    background-color: rgb(185, 184, 184);
+    padding: 20px;
+
+}
+.btn{
+font-weight: bold;    
+}
+@media (max-width:1028px){
+    #title{
+        width: 100%;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    }
+   .navbar a{
+text-decoration: none;
+color: white;
+    }
+#title{
+    text-align: center;
+}
+}
+
+.icon{
+    color: #ef8171;
+    margin-bottom: 15px;
+}
+.icon:hover{
+    color:#ff4c68;
+    transform: translateY(10px);
+}
+.footer-icon{
+    color: blue;
+}
+.footer-icon:hover{
+    color:rgb(74, 159, 192);
+    transform: translateY(5px);
+}
+#cta{
+    background: #ff4c68;
+    width: 100%;
+    padding: 15% 5px 10% 0%;
+    text-align: center;
+    }
+    
+
+
+
